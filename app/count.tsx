@@ -17,4 +17,4 @@ export function Count({ count, countAt, ratePerHour }: { count: number; countAt:
   }, [count, countAt, ratePerHour]);
 
   return <NumberFlow value={total} locales="en-US" plugins={[continuous]} willChange />;
-}
+} 
